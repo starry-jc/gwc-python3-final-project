@@ -37,9 +37,9 @@ nav a[aria-current='page'] {
   background-color: #d4d4d4;
 }
 
-main {
+/* main {
   padding: 1rem;
-}
+} */
 
 h1 {
   font-weight: bold;
@@ -47,20 +47,8 @@ h1 {
   text-align: center;
 }
 
-.home-page {
-  background-image: url("home/starry-jc/gwc-python3-final-project/Art/Landscape.PNG");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.header {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
+body .home-page {
+  background-image: url("Art/Landscape.PNG");
+  height: 100%;
+  width:100%
 }
