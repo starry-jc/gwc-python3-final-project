@@ -21,7 +21,9 @@ nav {
   border-bottom: solid 1px #aaa;
   background-color: #F6FDB8;
   width: 100%;
-  position:fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 nav a {
@@ -46,9 +48,8 @@ nav a[aria-current='page'] {
 
 
 body .home-page {
-  background-image: url("Art/Landscape.PNG");
+  background-image: url("Art/landscape.PNG");
   min-height: 700px;
-  background-position-y: -100px;
   background-repeat: no-repeat;
 }
 
@@ -72,8 +73,14 @@ body .header {
   src: url("Fonts/MatchaStyle.woff");
 }
 
+@font-face {
+  font-family: sugarGroovyRegular;
+  src: url("/Fonts/SugarGroovyRegular.woff");
+}
+
 body .bio {
-  margin-top: 500px;
+  margin-left: 100px;
+  margin-top: 600px;
   display: flex;
   gap: 30px; /* Adjust spacing between text and instagram embed */
   justify-content: space-between;
@@ -88,5 +95,15 @@ body .bio-text {
 
 
 body .instaEmbed {
-  min-width: 35%
+  min-width: 40%
+}
+
+body h2 {
+  font-family: sugarGroovyRegular;
+  font-size: 40px;
+  letter-spacing: .25rem;
+}
+
+body p {
+  font-size: 20px;
 }
