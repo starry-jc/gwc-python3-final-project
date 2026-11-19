@@ -48,6 +48,10 @@ h2 {
   letter-spacing: .25rem;
 }
 
+p {
+  font-size: 20px;
+}
+
 /* custom fonts */
 @font-face {
   font-family: matchaStyle;
@@ -101,9 +105,6 @@ h2 {
   min-width: 40%
 }
 
-#home-page p {
-  font-size: 20px;
-}
 
 /* portfolio page */
 #portfolio main {
@@ -111,6 +112,9 @@ h2 {
   margin-left: 10px;
 }
 
-#portfolio .
-
 /* commissions page */
+
+#commissions main {
+  margin-top: 75px;
+  margin-left: 10px;
+}

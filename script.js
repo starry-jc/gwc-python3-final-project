@@ -1,1 +1,3 @@
-console.log('Hello!');
+function noBuy() {
+    alert('Sorry! Currently not taking commissions. :)');
+}
